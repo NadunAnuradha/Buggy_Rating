@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite1" >
+    <test name="Acceptance suite1" >
+        <classes>
+            <class name="auto.testcases.TestLogin"/>
+            <class name="auto.testcases.TestJsAlert"/>
+            <class name="auto.testcases.TestFileUpload"/>
+            <class name="auto.testcases.TestIFrame"/>
+        </classes>
+    </test>
+</suite>
