@@ -12,7 +12,7 @@ public class TestVehicleVote extends Init{
     public void testVehicleVote() throws InterruptedException {
 
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.verifyLogin("nadunilam", "blackiR1!");
+        loginPage.verifyLogin("nadunilam!!!", "blackiR1!");
         VehicleVotePage VehicleVote = new VehicleVotePage(driver);
         VehicleVote.VerifyVehicleVote();
     }
@@ -20,8 +20,16 @@ public class TestVehicleVote extends Init{
     @Test
     public void testPopularModel() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.verifyLogin("nadunilam1", "blackiR1!!");
+        loginPage.verifyLogin("nadunilam!!!", "blackiR1!");
         VehicleVotePage VehicleVote = new VehicleVotePage(driver);
         VehicleVote.VerifyPopularModel();
+    }
+
+    @Test
+    public void testPopularMake() throws InterruptedException {
+        LoginPage loginPage = new LoginPage(driver);
+        loginPage.verifyLogin("nadunilam!!!", "blackiR1!");
+        VehicleVotePage VehicleVote = new VehicleVotePage(driver);
+        VehicleVote.VerifyPopularMakeVotes();
     }
 }

@@ -9,7 +9,7 @@ public class TestLogin extends Init{
     @Test
     public void testLoginSuccess() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.verifyLogin("nadunilam", "blackiR1!");
+        loginPage.verifyLogin("nadunilam!!!", "blackiR1!");
     }
 
     @Test

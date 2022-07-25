@@ -45,7 +45,8 @@ public class BuggyRegisterPage extends Services {
 
     public void VerifyBuggyRegister() throws InterruptedException {
         btnRegisterHome.click();
-        clearAndType(txtUsername, "nadunilam3");
+        //Please note the values are hardcoded for the moment
+        clearAndType(txtUsername, "nadunilamNew");
         clearAndType(txtFirstname, "NEW");
         clearAndType(txtLastname, "NEWONE");
         clearAndType(txtPassword, "blackiR1!11");
